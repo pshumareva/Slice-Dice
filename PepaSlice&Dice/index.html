@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alecto</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500;700&family=Open+Sans:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div id="logo"></div>
+            <div class="topnav" id="myTopnav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+                <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+                    <i class="fa fa-bars"></i></a>
+
+            </div>
+        </div>
+
+    </header>
+
+    <section class="slideshow-container">
+
+        <div class="mySlides fade">
+
+            <img src="images/ice-1.jpg" style="width:100%">
+            <div class="title"><b>Alecto</b> is a simple PSD Template</div>
+            <div class="sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <div class="align-button"><a href="#" class="button">Learn More</a>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+
+            <img src="images/ice-2.jpg" style="width:100%">
+            <div class="title">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+
+            <img src="images/ice-3.jpg" style="width:100%">
+            <div class="title">Caption Three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </section>
+    <br>
+
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <main>
+        <section class="about-us text-center">
+            <h2>About us</h2>
+            <hr class="separator">
+            <div class="thumbnail-columns">
+                <div class="rocket grid-item">
+                    <i class="fa fa-rocket thumbnail" aria-hidden="true"></i>
+                    <h4>Lorem ipsum</h4>
+                    <span class="thumbnail-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</span>
+                </div>
+                <div class="rocket grid-item">
+                    <i class="fa fa-rebel thumbnail" aria-hidden="true"></i>
+                    <h4>Lorem ipsum</h4>
+                    <span class="thumbnail-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</span>
+                </div>
+                <div class="rocket grid-item">
+                    <i class="fa fa-line-chart thumbnail" aria-hidden="true"></i>
+                    <h4>Lorem ipsum</h4>
+                    <span class="thumbnail-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</span>
+                </div>
+                <div class="rocket grid-item">
+                    <i class="fa fa-graduation-cap thumbnail" aria-hidden="true"></i>
+                    <h4>Lorem ipsum</h4>
+                    <span class="thumbnail-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</span>
+                </div>
+            </div>
+            <div class="align-button"><a href="#" class="button">Learn More</a>
+            </div>
+        </section>
+        <section class="camera">
+            <div class="camera-pic">
+                <img src="images/camera.jpg" height="350px" alt="camera">
+            </div>
+            <div class="camera-description">
+                <h2>Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque placeat et reprehenderit, cumque officiis commodi necessitatibus fuga, libero praesentium quam quidem ad inventore aut laudantium nemo ipsam id maxime explicabo.</p>
+                <div class="align-button"><a href="#" class="button">Learn More</a>
+            </div>
+        </section>
+        <section class="laptop">
+            <div class="laptop-description">
+                <h2>Dolor sit amet</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque placeat et reprehenderit, cumque officiis commodi necessitatibus fuga, libero praesentium quam quidem ad inventore aut laudantium nemo ipsam id maxime explicabo.</p>
+                <div class="align-button"><a href="#" class="button">Learn More</a>
+                </div>
+            </div>
+            <div class="laptop-pic">
+                <img src="images/laptop.jpg" height="350px" alt="">
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
